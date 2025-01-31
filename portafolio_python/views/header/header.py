@@ -21,7 +21,7 @@ def header() -> rx.Component:
                                         rx.text(
                                                 "@yojanromero",
                                                 margin_top = "0px !important",
-                                                color="blue"
+                                                color="white"
                                         ),
                                         href=cons.GITHUB_URL,
                                         is_external="True",

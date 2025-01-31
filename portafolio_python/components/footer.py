@@ -17,7 +17,7 @@ def footer() -> rx.Component:
                 href="https://www.linkedin.com/in/yojanromero/",
                 is_external=True,
                 font_size=Size.MEDIUM.value,
-                color="blue"
+                color="white"
             ),
             rx.text(
                 "INGENIERO ELECTRÓNICO/DESARROLLADOR WEB",
