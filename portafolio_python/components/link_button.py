@@ -9,20 +9,26 @@ def link_button(estado:bool, text:str, body:str, url:str, etq:str) -> rx.Compone
                 rx.icon(
                     tag = etq,
                     width = Size.DEFAULT.value,
-                    height = Size.DEFAULT.value,
-                    margin = ".25em"
+                    height = Size.DEFAULT.value
                 ),
                 rx.vstack(
-                    rx.text(text, style=styles.button_title_style),
+                    rx.text(
+                        text,
+                        style=styles.button_title_style
+                        ),
                     rx.cond(
                         estado,
-                        rx.text(body, style=styles.button_body_style),
+                        rx.text(
+                            body,
+                            style=styles.button_body_style
+                            ),
                     ),
                     spacing="0",
                 ),
-                padding_left = ".5em",
-                margin = Size.MEDIUM.value
-            )
+                align="center",
+                margin = Size.MEDIUM.value,
+                padding_left = ".5em"
+            ),
         ),
         href=url,
         is_external="True",

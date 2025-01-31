@@ -7,6 +7,7 @@ def footer() -> rx.Component:
         rx.vstack(
             rx.image(
                 src="/logo_azul.jpg",
+                alt="Logotipo de Yojan Romero",
                 width="70px",
                 height="70px",
                 border_radius = Size.SMALL.value
@@ -15,12 +16,14 @@ def footer() -> rx.Component:
                 f"2022-{datetime.date.today().year} YOJAN ROMERO V1.",
                 href="https://www.linkedin.com/in/yojanromero/",
                 is_external=True,
-                font_size=Size.MEDIUM.value
+                font_size=Size.MEDIUM.value,
+                color="blue"
             ),
             rx.text(
                 "INGENIERO ELECTRÓNICO/DESARROLLADOR WEB",
                 font_size=Size.MEDIUM.value,
-                margin_top = "0px !important"
+                margin_top = "0px !important",
+                color="white"
                 ),
             margin_bottom = Size.BIG.value,
             align_items = "center"
