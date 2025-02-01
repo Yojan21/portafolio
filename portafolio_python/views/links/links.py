@@ -59,7 +59,7 @@ def links() -> rx.Component:
         link_button(True,
                     "Portafolio",
                     "PYTHON con reflex",
-                    cons.FESTIVAL_MUSICA_URL,
+                    cons.PORTAFOLIO_URL,
                     "braces"
                     ),
         width = "70%",
