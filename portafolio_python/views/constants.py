@@ -4,7 +4,7 @@ import reflex as rx
 LINKEDIN_URL = "https://www.linkedin.com/in/yojanromero/"
 GITHUB_URL = "https://github.com/Yojan21"
 INSTAGRAM_URL = "https://www.instagram.com/yojanromero_/"
-X_URL = "https://x.com/romero_yoj61032"
+X_URL = "https://x.com/RomeroYojan_"
 
 #Redes Iconos
 LINKEDIN_ICON = "linkedin"
