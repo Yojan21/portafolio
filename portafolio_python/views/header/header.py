@@ -34,12 +34,18 @@ def header() -> rx.Component:
                                 align_items = "start",
                                 margin_left = Size.DEFAULT.value
                         ),
-                        align="center"
+                        
                 ),
-                rx.text(cons.RESUMEN,
-                        color="white"
-                        ),
+                rx.hstack(
+                        rx.text(cons.RESUMEN,
+                                color="white",
+                                align="center",
+                                width="100%"
+                        )
+                ),
+
+                
                 spacing="8",
                 max_width = "90%",
-                justify="center"
+                align="center",
         )
