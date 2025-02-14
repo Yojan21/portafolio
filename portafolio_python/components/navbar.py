@@ -6,7 +6,7 @@ def navbar()-> rx.Component:
     return rx.hstack(
         rx.box(
             rx.text(
-                rx.text.strong("Yojan Romero Dev"),
+                rx.text.strong("Yojan Romero Ariza"),
                 style = styles.navbar_title_style
             ),
         ),

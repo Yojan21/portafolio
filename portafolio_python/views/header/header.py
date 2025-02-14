@@ -36,11 +36,7 @@ def header() -> rx.Component:
                         ),
                         align="center"
                 ),
-                rx.text(
-                        """Soy Ingeniero Electrónico con experiencia en desarrollo de sistemas electrónicos,
-                        robótica y desarrollo web. Competente en herramientas como MATLAB, ROS,
-                        Python y diseño de circuitos electrónicos. Apasionado por resolver problemas
-                        complejos con innovación tecnológica.""",
+                rx.text(cons.RESUMEN,
                         color="white"
                         ),
                 spacing="8",

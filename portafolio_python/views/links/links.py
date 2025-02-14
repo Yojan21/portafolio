@@ -63,4 +63,5 @@ def links() -> rx.Component:
                     "braces"
                     ),
         width = "70%",
+        color="white",
     )
