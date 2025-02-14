@@ -9,7 +9,8 @@ def link_button(estado:bool, text:str, body:str, url:str, etq:str) -> rx.Compone
                 rx.icon(
                     tag = etq,
                     width = Size.DEFAULT.value,
-                    height = Size.DEFAULT.value
+                    height = Size.DEFAULT.value,
+                    alt="Imagen icono"
                 ),
                 rx.vstack(
                     rx.text(
